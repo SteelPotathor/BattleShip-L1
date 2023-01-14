@@ -1,0 +1,232 @@
+body {
+    background-image: url(../Projet/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    color: orange;
+    text-transform: initial;
+    font-size: xx-large;
+    font-family: 'army_rustregular', sans-serif;
+    transition: color 0.5s;
+}
+
+a:hover {
+    color:antiquewhite;
+}
+
+li.nav-item:not(:last-child) {
+    margin-left:2px;
+    float:left;
+    list-style: none;
+    border-right: 1px white solid;
+}
+
+strong {
+    font-family: 'top_secretregular', sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    vertical-align: auto;
+}
+
+nav {
+    opacity: 80%;
+    background: linear-gradient(black,gray);
+    margin-bottom: 20px;
+}
+
+div.container {
+    background-color: white;
+    opacity: 90%;
+    border: 5px double black;
+    margin-bottom: 30px;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    font-family: 'revampedregular', sans-serif;
+    clear: right;
+    padding-top: 30px;
+}
+
+h2 {
+    padding: 20px 0px 20px 20px;
+    font-size: 28px;
+}
+
+p {
+    text-align: justify;
+    padding: 0px 30px;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container .règles{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 30px;
+}
+
+div.container img {
+    float: right;
+    height: 300px;
+    position: relative;
+    padding-left: 20px;
+    top: -20px;
+}
+
+p#italique {
+    font-style: italic;
+}
+
+p#fin {
+    padding: 90px 0px 50px 0px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'army_rustregular', sans-serif;
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'top_secretregular';
+    src: url('Font/top-secret_1-webfont.eot');
+    src: url('Font/top-secret_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font/top-secret_1-webfont.woff2') format('woff2'),
+         url('Font/top-secret_1-webfont.woff') format('woff'),
+         url('Font/top-secret_1-webfont.ttf') format('truetype'),
+         url('Font/top-secret_1-webfont.svg#top_secretregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'army_rustregular';
+    src: url('Font/army_rust-webfont.eot');
+    src: url('Font/army_rust-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font/army_rust-webfont.woff2') format('woff2'),
+         url('Font/army_rust-webfont.woff') format('woff'),
+         url('Font/army_rust-webfont.ttf') format('truetype'),
+         url('Font/army_rust-webfont.svg#army_rustregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'revampedregular';
+    src: url('Font/revamped-webfont.eot');
+    src: url('Font/revamped-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font/revamped-webfont.woff2') format('woff2'),
+         url('Font/revamped-webfont.woff') format('woff'),
+         url('Font/revamped-webfont.ttf') format('truetype'),
+         url('Font/revamped-webfont.svg#revampedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.footer-basic{
+    position: relative;
+}
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+    opacity: 80%;
+    background: linear-gradient(gray,black);
+}
+  
+.footer-basic ul {
+    position:relative;
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+  
+.footer-basic li {
+    padding: 0px 35px 20px 35px;
+}
+  
+.footer-basic ul a {
+    text-decoration:none;
+    color: orange;
+    text-transform: initial;
+    font-size: xx-large;
+    font-family: 'army_rustregular', sans-serif;
+}
+  
+.footer-basic ul a:hover {
+    color:antiquewhite;
+}
+  
+.footer-basic .copyright {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 16px;
+    color:antiquewhite;
+}
+
+#haut_de_page {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    bottom: 100px;
+    right: 100px;
+}
+
+#haut_de_page img {
+    width: 130px;
+    transition: width 1s;
+}
+
+#haut_de_page img:hover {
+    width: 120px;
+}
+
+form {
+    margin: 30px;
+}
+
+form li {
+    list-style-type: none;
+}
+
+form label {
+    font-size: large;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+form li .field-long {
+    width: 38%;
+}
+
+form li .field-select {
+    width: 38%;
+}
+
+.required {
+    color: red;
+    font-weight: bold;
+}
+
+.formstyle input[type=submit] {
+    font-weight: bold;
+    background-color: orange;
+    border-color: orange;
+    margin-top: 10px;
+    padding: 5px 15px;
+    transition: all 0.25s;
+}
+
+.formstyle input[type=submit]:hover {
+    background-color: antiquewhite;
+    border-color: antiquewhite;
+}
